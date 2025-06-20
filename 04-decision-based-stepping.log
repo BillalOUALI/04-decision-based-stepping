@@ -1,0 +1,40 @@
+#Console output to 04-decision-based-stepping example with Odd decider
+
+App starts ... 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.5.0)[0;39m
+
+[2m2025-06-19T19:49:32.753+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.codingtest.CodingtestApplication    [0;39m [2m:[0;39m Starting CodingtestApplication using Java 17.0.10 with PID 80180 (C:\Users\billa\git\repository\codingtest\target\classes started by billa in C:\Users\billa\git\repository\codingtest)
+[2m2025-06-19T19:49:32.766+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.codingtest.CodingtestApplication    [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-06-19T19:49:32.819+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2025-06-19T19:49:33.654+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2025-06-19T19:49:33.906+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:219fcd47-1dbf-41b5-b850-70cdbfa02c19 user=SA
+[2m2025-06-19T19:49:33.908+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2025-06-19T19:49:34.217+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-06-19T19:49:34.243+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.codingtest.CodingtestApplication    [0;39m [2m:[0;39m Started CodingtestApplication in 2.038 seconds (process running for 3.16)
+[2m2025-06-19T19:49:34.247+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.b.a.b.JobLauncherApplicationRunner  [0;39m [2m:[0;39m Running default command line with: [run.id=123]
+[2m2025-06-19T19:49:34.293+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.b.c.l.s.TaskExecutorJobLauncher     [0;39m [2m:[0;39m Job: [FlowJob: [name=job]] launched with the following parameters: [{'run.id':'{value=123, type=class java.lang.String, identifying=true}'}]
+[2m2025-06-19T19:49:34.316+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.c.configuration.BatchConfiguration  [0;39m [2m:[0;39m >> Job started
+[2m2025-06-19T19:49:34.324+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.batch.core.job.SimpleStepHandler    [0;39m [2m:[0;39m Executing step: [startStep]
+[2m2025-06-19T19:49:34.335+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.c.configuration.BatchConfiguration  [0;39m [2m:[0;39m This is the start tasklet
+[2m2025-06-19T19:49:34.337+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.batch.core.step.AbstractStep        [0;39m [2m:[0;39m Step: [startStep] executed in 10ms
+[2m2025-06-19T19:49:34.342+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.batch.core.job.SimpleStepHandler    [0;39m [2m:[0;39m Executing step: [oddStep]
+[2m2025-06-19T19:49:34.343+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.c.configuration.BatchConfiguration  [0;39m [2m:[0;39m This is the odd tasklet
+[2m2025-06-19T19:49:34.346+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.batch.core.step.AbstractStep        [0;39m [2m:[0;39m Step: [oddStep] executed in 4ms
+[2m2025-06-19T19:49:34.352+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.batch.core.job.SimpleStepHandler    [0;39m [2m:[0;39m Executing step: [evenStep]
+[2m2025-06-19T19:49:34.355+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.c.configuration.BatchConfiguration  [0;39m [2m:[0;39m This is the even tasklet
+[2m2025-06-19T19:49:34.357+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.batch.core.step.AbstractStep        [0;39m [2m:[0;39m Step: [evenStep] executed in 4ms
+[2m2025-06-19T19:49:34.362+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mc.c.c.configuration.BatchConfiguration  [0;39m [2m:[0;39m >> Job ended with status: COMPLETED
+[2m2025-06-19T19:49:34.368+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [  restartedMain] [0;39m[36mo.s.b.c.l.s.TaskExecutorJobLauncher     [0;39m [2m:[0;39m Job: [FlowJob: [name=job]] completed with the following parameters: [{'run.id':'{value=123, type=class java.lang.String, identifying=true}'}] and the following status: [COMPLETED] in 58ms
+App started .... 
+[2m2025-06-19T19:49:34.380+01:00[0;39m [33m WARN[0;39m [35m80180[0;39m [2m--- [codingtest] [ionShutdownHook] [0;39m[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m [2m:[0;39m Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+[2m2025-06-19T19:49:34.381+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [ionShutdownHook] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2025-06-19T19:49:34.385+01:00[0;39m [32m INFO[0;39m [35m80180[0;39m [2m--- [codingtest] [ionShutdownHook] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
